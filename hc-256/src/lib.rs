@@ -72,7 +72,7 @@ use cipher::zeroize::{Zeroize, ZeroizeOnDrop};
 
 const TABLE_SIZE: usize = 1024;
 const TABLE_MASK: usize = TABLE_SIZE - 1;
-const INIT_SIZE: usize = 2660;
+const INIT_SIZE: usize = 2560;
 const KEY_BITS: usize = 256;
 const KEY_WORDS: usize = KEY_BITS / 32;
 const IV_BITS: usize = 256;
